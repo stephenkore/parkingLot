@@ -31,7 +31,7 @@ function Parking(){
             if(a < b) return -1;
             return 0;
         });  
-       localStorage.setItem('extingscars',{carNo:carNo,slot:slot}); 
+       localStorage.setItem('existingcars',{carNo:carNo,slot:slot}); 
       };
      
       const handleChange = (e) => {
